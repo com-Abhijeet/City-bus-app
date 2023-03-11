@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-left: 15px;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+#map {
+    margin-left: 5%;
+    height: 400px;
+    width: 90%;
+    border:black;
+}
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } 
+
+  button, .button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 10%;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    align-items:center;
+    
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+.avail, h2{
+    margin-left: 10px;
+}
+.bus-card {
+    background-color: #f6f2f2;
+    margin: 0;
+    padding: 10px;
+    /* padding-left: 50px; */
+    /* border-radius: 5px; */
+    width: 100%;
+}
+.bus-card h3 {
+    margin-top: 0;
+}
+.bus-card p {
+    margin: 5px 0;
+}
+.bus-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bus-card button:hover {
+    background-color: #3e8e41;
+}
+.bus-card .bus-details {
+    display: none;
+}
+.gm-style-mtc{
+    display: none;
+}
+.gm-style .controls {
+    font-size: 0px; /* this adjusts the size of all the controls */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 300;
+    height: 1em;
+    margin: 6px;
+    text-align: center;
+    user-select: none;
+    padding: 2px;
+    width: 1em;
+  }
+  
+  .gm-style .controls button {
+    border: 0;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .gm-style .controls button:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .gm-style .controls.zoom-control {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .gm-style .controls.zoom-control button {
+    font: 0.85em Arial;
+    margin: 1px;
+    padding: 0;
+  }
+  
+  .gm-style .controls.maptype-control {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  
+  .gm-style .controls.maptype-control button {
+    display: inline-block;
+    font-size: 0.5em;
+    margin: 0 1px;
+    padding: 0 6px;
+  }
+  
+  .gm-style .controls.maptype-control.maptype-control-is-map .maptype-control-map {
+    font-weight: 700;
+  }
+  
+  .gm-style .controls.maptype-control.maptype-control-is-satellite .maptype-control-satellite {
+    font-weight: 700;
+  }
+  
+  .gm-style .controls.fullscreen-control button {
+    display: block;
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .gm-style .controls.fullscreen-control .fullscreen-control-icon {
+    border-style: solid;
+    height: 0.25em;
+    position: absolute;
+    width: 0.25em;
+  }
+  
+  .gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-top-left {
+    border-width: 2px 0 0 2px;
+    left: 0.1em;
+    top: 0.1em;
+  }
+  
+  .gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-top-left {
+    border-width: 0 2px 2px 0;
+  }
+  
+  .gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-top-right {
+    border-width: 2px 2px 0 0;
+    right: 0.1em;
+    top: 0.1em;
+  }
+  
+  .gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-top-right {
+    border-width: 0 0 2px 2px;
+  }
+  
+  .gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-bottom-left {
+    border-width: 0 0 2px 2px;
+    left: 0.1em;
+    bottom: 0.1em;
+  }
+  
+  .gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-bottom-left {
+    border-width: 2px 2px 0 0;
+  }
+  
+  .gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-bottom-right {
+    border-width: 0 2px 2px 0;
+    right: 0.1em;
+    bottom: 0.1em;
+  }
+  
+  .gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-bottom-right {
+    border-width: 2px 0 0 2px;
+  }
